@@ -1237,27 +1237,27 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, PIDGEY
 	db 2, SENTRET
-	db 3, PIDGEY
-	db 3, SENTRET
-	db 2, RATTATA
+	db 2, SENTRET
+	db 3, HOOTHOOT
+	db 3, HOOTHOOT
+	db 2, HOPPIP
 	db 3, HOPPIP
 	db 3, HOPPIP
 	; day
-	db 2, PIDGEY
+	db 2, HOPPIP
 	db 2, SENTRET
-	db 3, PIDGEY
-	db 3, SENTRET
-	db 2, RATTATA
+	db 3, HOPPIP
+	db 3, WOOPER
+	db 2, HOOTHOOT
 	db 3, HOPPIP
 	db 3, HOPPIP
 	; nite
 	db 2, HOOTHOOT
-	db 2, RATTATA
+	db 2, SENTRET
 	db 3, HOOTHOOT
-	db 3, RATTATA
-	db 2, RATTATA
+	db 3, SENTRET
+	db 2, HOPPIP
 	db 3, HOOTHOOT
 	db 3, HOOTHOOT
 	end_grass_wildmons
@@ -1273,11 +1273,11 @@ JohtoGrassWildMons:
 	db 4, HOPPIP
 	db 4, HOPPIP
 	; day
-	db 3, PIDGEY
-	db 3, CATERPIE
-	db 4, CATERPIE
-	db 4, PIDGEY
-	db 3, WEEDLE
+	db 3, SENTRET
+	db 3, SENTRET
+	db 4, SENTRET
+	db 4, LEDYBA
+	db 3, LEDYBA
 	db 4, HOPPIP
 	db 4, HOPPIP
 	; nite
@@ -1294,18 +1294,18 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 4, LEDYBA
-	db 4, CATERPIE
+	db 4, SENTRET
 	db 5, BELLSPROUT
-	db 5, PIDGEY
-	db 4, WEEDLE
+	db 5, NATU
+	db 4, NATU
 	db 5, HOPPIP
 	db 5, HOPPIP
 	; day
-	db 4, PIDGEY
-	db 4, CATERPIE
+	db 4, NATU
+	db 4, NATU
 	db 5, BELLSPROUT
-	db 5, PIDGEY
-	db 4, WEEDLE
+	db 5, NATU
+	db 4, NATU
 	db 5, HOPPIP
 	db 5, HOPPIP
 	; nite
@@ -1321,24 +1321,24 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, EKANS
+	db 4, KOFFING
 	db 5, RATTATA
-	db 7, BELLSPROUT
+	db 7, UNOWN
 	db 6, HOPPIP
-	db 7, PIDGEY
+	db 7, KOFFING
 	db 7, HOPPIP
 	db 7, HOPPIP
 	; day
-	db 4, EKANS
-	db 5, RATTATA
+	db 4, KOFFING
+	db 5, WOOPER
 	db 7, BELLSPROUT
 	db 6, HOPPIP
-	db 7, PIDGEY
+	db 7, WOOPER
 	db 7, HOPPIP
 	db 7, HOPPIP
 	; nite
 	db 4, WOOPER
-	db 5, RATTATA
+	db 5, WOOPER
 	db 7, BELLSPROUT
 	db 6, ZUBAT
 	db 7, HOOTHOOT
